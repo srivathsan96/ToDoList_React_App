@@ -1,0 +1,15 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 3px 4px;
+  border-radius: 12px;
+}
+
+.todoItem p {
+  flex: 1;
+}
+
+.todoItem--check {
+  text-decoration: line-through;
+}
